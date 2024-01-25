@@ -15,7 +15,7 @@ Resources:
   TestRdsConnFunction:
     Type: AWS::Serverless::Function # More info about Function Resource: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessfunction
     Properties:
-      CodeUri: test_rds_conn/
+      CodeUri: functions/test_rds_conn/
       Handler: app.lambda_handler
       Runtime: python3.9
       Layers:
